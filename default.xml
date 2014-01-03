@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="aokp"
+           fetch="https://github.com/"
+           review="gerrit.aokp.co"
+           sync-j="4" />
+
   <remote  name="aosp"
            fetch="http://android.googlesource.com/" 
            review="https://android-review.googlesource.com/" 
@@ -55,7 +60,7 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
-  <project path="device/lge/e980" name="CyanogenMod/anroid_device_lge_e980" remote="cm" revision="cm-11.0" />
+  <project path="device/lge/e980" name="cyanogenMod/android_device_lge_gkatt" remote="cm" revision="cm-11.0" />
   <project path="device/lge/gproj-common" name="CyanogenMod/android_device_lge_gproj-common" remote="cm" revision="cm-11.0" />
   <!--<project path="device/lge/hammerhead" name="CarbonDev/android_device_lge_hammerhead" revision="kk-nex" />
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
