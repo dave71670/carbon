@@ -56,16 +56,17 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
   <project path="device/lge/e980" name="CyanogenMod/anroid_device_lge_e980" remote="cm" revision="cm-11.0" />
-  <project path="device/lge/hammerhead" name="CarbonDev/android_device_lge_hammerhead" revision="kk-nex" />
+  <project path="device/lge/gproj-common" name="CyanogenMod/android_device_lge_gproj-common" remote="cm" revision="cm-11.0" />
+  <!--project path="device/lge/hammerhead" name="CarbonDev/android_device_lge_hammerhead" revision="kk-nex" />
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
   <project path="device/lge/mako" name="CarbonDev/android_device_lge_mako" />
-  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
+  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" remote="aosp" revision="refs/tags/android-4.4_r1.2" /-->
   <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
-  <project path="device/samsung/maguro" name="CarbonDev/android_device_samsung_maguro" />
+  <!--project path="device/samsung/maguro" name="CarbonDev/android_device_samsung_maguro" />
   <project path="device/samsung/manta" name="CarbonDev/android_device_samsung_manta" />
   <project path="device/samsung/toro" name="CarbonDev/android_device_samsung_toro" />
   <project path="device/samsung/toroplus" name="CarbonDev/android_device_samsung_toroplus" />
-  <project path="device/samsung/tuna" name="CarbonDev/android_device_samsung_tuna" />
+  <project path="device/samsung/tuna" name="CarbonDev/android_device_samsung_tuna" /-->
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
   <project path="external/android-clat" name="platform/external/android-clat" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
@@ -335,9 +336,9 @@
   <!-- <project path="kernel/asus/grouper" name="CyanogenMod/android_kernel_asus_grouper" remote="cm" revision="cm-11.0" />
   <project path="kernel/google/msm" name="CarbonDev/android_kernel_google_msm" /> -->
   <project path="kernel/lge/e980" name="CyanogenMod/lge-kernel-gproj" remote="cm" revision="cm-11.0" />
-  <project path="kernel/lge/mako" name="ParanoidAndroid/lge-kernel-mako" remote="gh" revision="jb43" />
+  <!--project path="kernel/lge/mako" name="ParanoidAndroid/lge-kernel-mako" remote="gh" revision="jb43" />
   <project path="kernel/lge/hammerhead" name="CarbonDev/android_kernel_lge_hammerhead" />
-  <!-- <project path="kernel/samsung/manta" name="CyanogenMod/android_kernel_samsung_manta" remote="cm" revision="cm-11.0" />
+  <project path="kernel/samsung/manta" name="CyanogenMod/android_kernel_samsung_manta" remote="cm" revision="cm-11.0" />
   <project path="kernel/samsung/tuna" name="CyanogenMod/android_kernel_samsung_tuna" remote="cm" revision="cm-11.0" /> -->
   <project path="libcore" name="platform/libcore" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" remote="aosp" revision="refs/tags/android-4.4_r1.2" />
